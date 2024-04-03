@@ -5,7 +5,9 @@
 // mod arithmetic_sequence2;
 // mod maximum_subsequence1;
 // mod maximum_subsequence2;
-mod counting_triangles1;
+// mod counting_triangles1;
+mod counting_triangles2;
 fn main() {
-    counting_triangles1::counting_triangles();
+    counting_triangles2::counting_triangles2();
+
 }
