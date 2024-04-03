@@ -4,10 +4,8 @@
 // mod integers_median;
 // mod arithmetic_sequence2;
 // mod maximum_subsequence1;
-mod maximum_subsequence2;
+// mod maximum_subsequence2;
+mod counting_triangles1;
 fn main() {
-    maximum_subsequence2::maximum_subsequence1();
-    // maximum_subsequence1::maximum_subsequence1();
-    // integers_median::integers_median();
-    // arithmetic_sequence2::arithmetic_squence2()
+    counting_triangles1::counting_triangles();
 }
