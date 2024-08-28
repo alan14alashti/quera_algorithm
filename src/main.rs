@@ -8,8 +8,9 @@
 // mod counting_triangles1;
 // mod counting_triangles2;
 // mod counting_triangles3;
-mod semiTidy;
+// mod semi_tidy;
+mod bubble_sort;
 fn main() {
-    semiTidy::semiTidy();
+    bubble_sort::bubble_sort();
 
 }
