@@ -9,8 +9,8 @@
 // mod counting_triangles2;
 // mod counting_triangles3;
 // mod semi_tidy;
-mod bubble_sort;
+// mod bubble_sort;
+mod selection_sort;
 fn main() {
-    bubble_sort::bubble_sort();
-
+    selection_sort::selection_sort();
 }
