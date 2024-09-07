@@ -10,7 +10,7 @@
 // mod counting_triangles3;
 // mod semi_tidy;
 // mod bubble_sort;
-mod selection_sort;
+mod insertion_sort;
 fn main() {
-    selection_sort::selection_sort();
+    insertion_sort::insertion_sort();
 }
