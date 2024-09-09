@@ -10,7 +10,9 @@
 // mod counting_triangles3;
 // mod semi_tidy;
 // mod bubble_sort;
-mod insertion_sort;
+// mod insertion_sort;
+mod maximum_subsequence3;
+
 fn main() {
-    insertion_sort::insertion_sort();
+    maximum_subsequence3::maximum_subsequence3();
 }
