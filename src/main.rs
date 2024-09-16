@@ -11,8 +11,9 @@
 // mod semi_tidy;
 // mod bubble_sort;
 // mod insertion_sort;
-mod maximum_subsequence3;
+// mod maximum_subsequence3;
+mod horner;
 
 fn main() {
-    maximum_subsequence3::maximum_subsequence3();
+    horner::horner();
 }
