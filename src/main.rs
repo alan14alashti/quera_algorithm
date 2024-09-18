@@ -12,8 +12,9 @@
 // mod bubble_sort;
 // mod insertion_sort;
 // mod maximum_subsequence3;
-mod horner;
+// mod horner;
+mod sum_of_digits;
 
 fn main() {
-    horner::horner();
+    sum_of_digits::sum_of_digits();
 }
