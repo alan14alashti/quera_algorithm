@@ -20,5 +20,5 @@ mod recursion {
 }
 
 fn main() {
-    recursion::recursive_sequence::recursive_sequence();
+    recursion::gcd::gcd();
 }

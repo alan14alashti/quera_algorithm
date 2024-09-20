@@ -1,36 +1,35 @@
 use std::io;
 
-pub fn horner() {
+pub fn gcd() {
   let mut first_line = String::new();
   io::stdin().read_line(&mut first_line).expect("fail");
-  
-  let mut second_line = String::new();
-  io::stdin().read_line(&mut second_line).expect("fail");
 
-  let first_line_vector: Vec<i128> = first_line
+  let first_line_vector: Vec<u128> = first_line
   .trim()  
   .split_whitespace() 
   .map(|s| s.parse().expect("Please enter valid numbers")) 
   .collect();
 
-  let n = first_line_vector[0];
-  let x = first_line_vector[1];
+  let a: u128;
+  let b: u128;
 
-  let sequence: Vec<i128> = second_line
-    .trim()  
-    .split_whitespace() 
-    .map(|s| s.parse().expect("Please enter valid numbers")) 
-    .collect();
 
-  let mode = 1000000007;
-  let mut p = 0;
-  for i in 0..n+1 {
-    p = (p * x) + sequence[i as usize];
-    p = p % mode;
-    if p < 0 {
-      p += mode;
+  if first_line_vector[0] < first_line_vector[1] {
+    b = first_line_vector[0];
+    a = first_line_vector[1];
+  } else {
+    a = first_line_vector[0];
+    b = first_line_vector[1];
+  }
+
+  fn findgcd(x: u128, y: u128) -> u128 {
+    if y == 0 {
+      return x;
+    } else {
+      return findgcd(y, x % y)
     }
   }
 
-  print!("{}", p);
+  let result = findgcd(a, b);
+  print!("{}", result);
 }
