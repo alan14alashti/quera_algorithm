@@ -13,8 +13,12 @@
 // mod insertion_sort;
 // mod maximum_subsequence3;
 // mod horner;
-mod sum_of_digits;
+// mod sum_of_digits;
+mod recursion {
+    // pub mod recursive_sequence;
+    pub mod gcd;
+}
 
 fn main() {
-    sum_of_digits::sum_of_digits();
+    recursion::recursive_sequence::recursive_sequence();
 }
