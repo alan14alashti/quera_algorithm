@@ -16,9 +16,10 @@
 // mod sum_of_digits;
 mod recursion {
     // pub mod recursive_sequence;
-    pub mod gcd;
+    // pub mod gcd;
+    pub mod honoi;
 }
 
 fn main() {
-    recursion::gcd::gcd();
+    recursion::honoi::honoi();
 }
