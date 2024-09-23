@@ -17,9 +17,10 @@
 mod recursion {
     // pub mod recursive_sequence;
     // pub mod gcd;
-    pub mod honoi;
+    // pub mod honoi;
+    pub mod gray_code;
 }
 
 fn main() {
-    recursion::honoi::honoi();
+    recursion::gray_code::gray_code();
 }
