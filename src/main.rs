@@ -18,9 +18,10 @@ mod recursion {
     // pub mod recursive_sequence;
     // pub mod gcd;
     // pub mod honoi;
-    pub mod gray_code;
+    // pub mod gray_code;
+    pub mod ordered_n_tuples;
 }
 
 fn main() {
-    recursion::gray_code::gray_code();
+    recursion::ordered_n_tuples::ordered_n_tuples();
 }
